@@ -1,0 +1,34 @@
+{
+  "schema": {
+    "type": "object",
+    "ui:displayType": "row",
+    "ui:showDescIcon": true,
+    "properties": {
+      "input_nMJbHx": {
+        "title": "输入框",
+        "type": "string"
+      },
+      "number_Dvui8E": {
+        "title": "数字输入框",
+        "type": "number"
+      },
+      "radio_XERzYP": {
+        "title": "单选",
+        "type": "string",
+        "enum": [
+          "a",
+          "b",
+          "c"
+        ],
+        "enumNames": [
+          "早",
+          "中",
+          "晚"
+        ],
+        "ui:widget": "radio"
+      }
+    }
+  },
+  "displayType": "row",
+  "showDescIcon": true
+}
