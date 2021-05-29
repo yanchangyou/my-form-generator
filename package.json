@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "antd": "^4.14.1",
-    "fr-generator": "^2.1.2",
-    "jquery": "latest",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
-    "react-scripts": "^4.0.3"
+    "antd": ">=4.x",
+    "fr-generator": ">=2.1.2",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "react-scripts": ">=4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",

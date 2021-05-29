@@ -78,9 +78,8 @@ const linkWidget = (props) => {
   return <Button key={'btn-' + key} type="link" target="_blank" href={config.url} text={text}>{text}</Button>
 }
 
-
 const myInputWidget = (props) => {
-  return <div> <Input props placeholder="自定义输入"></Input></div>
+  return <div> <Input {...props} placeholder="自定义输入"></Input></div>
 }
 
 let helloWidgets = {

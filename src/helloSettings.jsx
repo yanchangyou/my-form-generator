@@ -97,19 +97,15 @@ export const helloWidgetsSettings = [
         },
       }
     }, {
-      text: '自定义输入框',
+      text: '输入框',
       name: 'myInput',
       schema: {
+        "title": '自定义输入框',
         "type": "string",
         "widget": "myInput",
         default: "默认值"
       },
       "setting": {
-        "text": {
-          title: '名称',
-          type: 'string',
-          default: "默认值"
-        },
         "url": {
           title: '地址',
           type: 'string',
